@@ -37,7 +37,7 @@
             // 
             // openFile
             // 
-            this.openFile.Location = new System.Drawing.Point(57, 27);
+            this.openFile.Location = new System.Drawing.Point(57, 76);
             this.openFile.Name = "openFile";
             this.openFile.Size = new System.Drawing.Size(69, 23);
             this.openFile.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             this.filePath.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.filePath.Location = new System.Drawing.Point(133, 27);
+            this.filePath.Location = new System.Drawing.Point(133, 76);
             this.filePath.Name = "filePath";
             this.filePath.Size = new System.Drawing.Size(437, 21);
             this.filePath.TabIndex = 1;
@@ -70,15 +70,15 @@
             this.watermarkerText.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.watermarkerText.Location = new System.Drawing.Point(202, 70);
+            this.watermarkerText.Location = new System.Drawing.Point(133, 18);
             this.watermarkerText.Name = "watermarkerText";
-            this.watermarkerText.Size = new System.Drawing.Size(368, 21);
+            this.watermarkerText.Size = new System.Drawing.Size(437, 21);
             this.watermarkerText.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(131, 73);
+            this.label1.Location = new System.Drawing.Point(61, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 12);
             this.label1.TabIndex = 4;
