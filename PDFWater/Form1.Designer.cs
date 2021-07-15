@@ -33,6 +33,8 @@
             this.result = new System.Windows.Forms.TextBox();
             this.watermarkerText = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.toPDF = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // openFile
@@ -41,7 +43,7 @@
             this.openFile.Name = "openFile";
             this.openFile.Size = new System.Drawing.Size(69, 23);
             this.openFile.TabIndex = 0;
-            this.openFile.Text = "选择";
+            this.openFile.Text = "添加水印";
             this.openFile.UseVisualStyleBackColor = true;
             this.openFile.Click += new System.EventHandler(this.openFile_Click);
             // 
@@ -59,7 +61,7 @@
             this.result.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.result.Location = new System.Drawing.Point(133, 135);
+            this.result.Location = new System.Drawing.Point(133, 164);
             this.result.Multiline = true;
             this.result.Name = "result";
             this.result.Size = new System.Drawing.Size(437, 219);
@@ -84,11 +86,32 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "水印文本：";
             // 
+            // textBox1
+            // 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox1.Location = new System.Drawing.Point(133, 135);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(437, 21);
+            this.textBox1.TabIndex = 7;
+            // 
+            // toPDF
+            // 
+            this.toPDF.Location = new System.Drawing.Point(57, 135);
+            this.toPDF.Name = "toPDF";
+            this.toPDF.Size = new System.Drawing.Size(69, 23);
+            this.toPDF.TabIndex = 6;
+            this.toPDF.Text = "转PDF";
+            this.toPDF.UseVisualStyleBackColor = true;
+            this.toPDF.Click += new System.EventHandler(this.toPDF_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.toPDF);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.watermarkerText);
             this.Controls.Add(this.result);
@@ -109,6 +132,8 @@
         private System.Windows.Forms.TextBox result;
         private System.Windows.Forms.TextBox watermarkerText;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button toPDF;
     }
 }
 
