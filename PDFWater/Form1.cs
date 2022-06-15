@@ -120,20 +120,7 @@ namespace PDFWaterMarker
 
         private void toImage_Click(object sender, EventArgs e)
         {
-//            var client = new RestClient("https://api.aliyundrive.com/adrive/v2/share_link/get_share_by_anonymous");
-//            client.Timeout = -1;
-//            var request = new RestRequest(Method.POST);
-//            request.AddHeader("Content-Type", "application/json");
-//            request.AddHeader("Cookie", "acw_tc=2f6a1f9c16263269778963337e47548f9a053d4d6e3c4fb6b155654f17df7c");
-//            var body = @"{
-//" + "\n" +
-//            @"    ""share_id"":""moB5Z35cViv""
-//" + "\n" +
-//            @"}";
-//            request.AddParameter("application/json", body, ParameterType.RequestBody);
-//            IRestResponse response = client.Execute(request);
-//            Console.WriteLine(response.Content);
-            //Apply();
+ 
         }
         public void Apply() {
             var inputFile = @"C:\Users\xxx\source\repos\xxlllq\system_architect\真题(截至2020年)【推荐】\历年真题及解析合并版本（截至2020年）\2009年\2009年系统架构师考试科目三：论文真题.pdf";
